@@ -1,0 +1,67 @@
+h1, p {
+  font-family: Lato;
+}
+body{
+  background-color:black;
+
+}
+.calculator{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  border: 1px solid azure;
+  height: 650px;
+  background-color:black;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+
+}
+.output{
+  width: 500px;
+  border-bottom: 1px solid azure; 
+  height: 6em;
+  background-color:black;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.input{
+  margin: 2em;
+
+}
+button{
+  width: 5em;
+  border-radius: 3em;
+  height: 5em;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  cursor: pointer;
+  color: #ffff;
+  background-color: gray;
+  outline: none;
+  border: 2px solid transparent;
+}
+.button:hover {
+  background: linear-gradient(hsl(207.5, 84.8%, 51%), hsla(207, 84%, 62%, 1));
+  transition: all 0.2s linear;
+}
+
+.zero{
+  width: 12em;
+  padding-right:7em ;
+}
+
+.greybutton{
+  background-color: rgba(240, 255, 255, 0.753);
+  color: black;
+}
+
+
+.orange{
+  background-color: orange;
+} 
+
